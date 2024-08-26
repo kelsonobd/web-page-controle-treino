@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(8, 7, 46);
+    color: white;
+
+}
+
+header {
+    padding-top: 20px;
+    height: 50vd;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+
+.container {
+    padding: 20px;
+    border-bottom: 1px solid white;
+
+}
+
+.container-treino {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-treino .titulo-geral {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+
+}
+.container-treino .titulo-geral h2 span{
+    color:rgb(203, 31, 31);
+}
+
+.container .container-treino .container-area .container-area-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+
+
+}
+
+.container .container-area .container-area-item img {
+    width: 90px;
+}
+
+.container-area-item form {
+    width: 100%;
+}
+
+.container-area-item form label {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+
+.container-area-item form label p {
+    font-size: 20px;
+
+}
+.container-area-item form label p .span-repet{
+    font-size: 20px;
+    color:rgb(229, 255, 0);
+}
+
+.container-area-item form label input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.botao {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.btn {
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgb(132, 20, 20);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
