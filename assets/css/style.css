@@ -24,65 +24,54 @@ header {
 }
 
 
-.container {
-    padding: 20px;
-    border-bottom: 1px solid white;
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+.container-itens{
+    display: flex;
+    flex-direction: column;
 }
 
-.container-treino .titulo-geral {
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom: 40px;
-    color: white;
-
-}
-.container-treino .titulo-geral h2 span{
-    color:rgb(203, 31, 31);
-}
-
-.container .container-treino .container-area .container-area-item {
+.container .container-itens .container-item{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     gap: 40px;
-    margin-bottom: 20px;
-  
-}
-
-
-.container .container-area .container-area-item img {
-    width: 90px;
-}
-
-.container-area-item form {
-    width: 100%;
-}
-
-.container-area-item form label {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    margin-bottom: 30px;
+   height: 70px;
+   border-bottom: 1px solid white;
 
 }
 
-
-.container-area-item form label p {
-    font-size: 15px;
-
+.container .container-itens .container-item:last-child{
+    border-bottom: none;
 }
-.container-area-item form label p .span-repet{
+
+.container .container-itens .container-item img{
+   width: 60px;
+}
+
+.container .container-itens .container-item form label{
+ display: flex;
+
+    gap:20px;
+}
+.container .container-itens .container-item form label h3{
     font-size: 20px;
-    color:rgb(229, 255, 0);
+    font-weight: 400;
+}
+.container .container-itens .container-item form label h3 .span-repet{
+    color: yellow;
 }
 
-.container-area-item form label input[type="checkbox"] {
-    height: 20px;
+.container .container-itens .container-item form label input{
     width: 20px;
-    cursor: pointer;
+    height: 25px;
 }
-
 
 .botao {
     margin-top: 30px;
@@ -104,5 +93,6 @@ header {
     cursor: pointer;
     text-transform: uppercase;
 }
+
 
 
