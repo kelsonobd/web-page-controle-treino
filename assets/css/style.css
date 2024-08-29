@@ -35,6 +35,7 @@ header {
 }
 .container .titulos{
     margin-bottom: 30px;
+    text-align: center;
 }
 .container .titulos h2 span{
     color: rgb(226, 46, 46);
